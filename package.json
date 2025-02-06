@@ -1,7 +1,7 @@
 {
-  "name": "ts-script-starter",
+  "name": "bluesky_loop_video_poster",
   "version": "1.0.0",
-  "description": "",
+  "description": "A script for posting videos to Bluesky",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
@@ -12,10 +12,14 @@
     "start": "node dist/index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Taylor Bell",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.10.2",
     "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@atproto/api": "^0.13.35",
+    "dotenv": "^16.4.7"
   }
 }
